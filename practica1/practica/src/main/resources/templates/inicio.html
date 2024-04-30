@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+</head>
+<body>
+    <h1>Registro de Personas</h1>
+    <form th:action = "@{/process}" method="get" >
+        <label>Dni</label>
+        <input type="text" name="dni" >
+        <br><br>
+
+        <label>Nombres</label>
+        <input type="text" name="nombre" >
+        <br><br>
+
+        <label>Apellidos</label>
+        <input type="text" name="apellidos" >
+        <br><br>
+
+        <label>Correo</label>
+        <input type="text" name="correo" >
+        <br><br>
+
+        <button type="submit" > Registrar Información</button>
+    </form>
+</body>
+</html>
